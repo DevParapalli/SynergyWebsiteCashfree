@@ -34,7 +34,7 @@ export interface Event {
 export const events: Event[] = [
   {
     hide: false,
-    id: "events-1",
+    id: "AutoCoders",
     name: "Autocoders",
     long_desc:
       "AutoCoders is a thrilling tech odyssey where minds ignite in a three-stage coding crescendo. Round 1 sets neurons racing with a grueling quiz, separating code warriors from the rest. Round 2 unfurls an epic battle in competitive coding, a realm where algorithms duel. Round 3 ups the ante, making only the sharpest minds emerge victorious, forging legends in the world of code.",
@@ -54,7 +54,7 @@ export const events: Event[] = [
   },
   {
     hide: false,
-    id: "events-0",
+    id: "Communix",
     name: "Communix",
     long_desc:
       "Communix, the battle of orators, unfolds in three captivating rounds. Round 1 unleashes 1v1 debate titans, where words become weapons. Round 2 tests wits with extempore speeches. In Round 3, competitors craft impromptu tales, weaving narratives on the spot using at least ten of the given twenty words. Communix is where great speech meets quick thinking, taking word-pirates on an exciting adventure into uncharted territory.",
@@ -72,7 +72,7 @@ export const events: Event[] = [
   },
   {
     hide: false,
-    id: "events-2",
+    id: "WebCraft",
     name: "WebCraft",
     long_desc:
       "Embark on a coding journey from grasshopper to apprentice and, ultimately, master! Our web development event offers challenges for all skill levels. Test your algorithmic skills, learn, and rise through the ranks. Seize this opportunity to prove your coding prowess and become a true web development master!",
@@ -92,7 +92,7 @@ export const events: Event[] = [
   },
   {
     hide: false,
-    id: "events-3",
+    id: "BountyHunt",
     name: "Bounty Hunt",
     long_desc:
       "Jake and The NeverLand Pirates or Jack Sparrow we’ve been pretty curious about those ‘treasure hunting games’ isn’t it? We present to you the most exciting event packed with exhilarating activities. Bring on your squad and unravel the mysteries hidden in the entangling hallways of GCOEN. You may register with a team of 2 - 4 members.",
@@ -111,7 +111,7 @@ export const events: Event[] = [
   },
   {
     hide: false,
-    id: "events-4",
+    id: "AceClutchers",
     name: "Ace Clutchers",
     long_desc:
       "In Valorant, we're not just good; we're legendary! Our headshots are like poetry, and our strategies, works of art. In BGMI, our squad co-ordination wins us chicken dinners for fortnights in a row. We're also the Kings and Queens of Chess, and you're in for a royal beatdown! So, if you think you can step up to the big leagues, prepare to be schooled.",
@@ -131,7 +131,7 @@ export const events: Event[] = [
   },
   {
     hide: false,
-    id: "events-5",
+    id: "HardDrive",
     name: "Hard Drive",
     long_desc:
       "Join us in a galaxy far, far away for the ``Hard Drive: Galactic Cargo Run.`` You will first be trained in the Jedi temple to handle your robot, then you will go forth to complete your mission. Compete with other Jedis using provided working robots to move eight precious cargo boxes to the center. Time is of the essence, and the fastest Jedi mechanic will claim victory. May the speediest droid-master win this interstellar challenge!",
@@ -149,7 +149,7 @@ export const events: Event[] = [
   },
     {
     hide: false,
-    id: "events-6",
+    id: "Smash",
     name: "SMASH",
     long_desc:
       "For the one's having a knack of exploring the visionary domain of Aeromodelling  we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.",
