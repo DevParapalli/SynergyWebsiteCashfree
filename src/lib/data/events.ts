@@ -39,17 +39,17 @@ export const events: Event[] = [
     long_desc:
       "AutoCoders is a thrilling tech odyssey where minds ignite in a three-stage coding crescendo. Round 1 sets neurons racing with a grueling quiz, separating code warriors from the rest. Round 2 unfurls an epic battle in competitive coding, a realm where algorithms duel. Round 3 ups the ante, making only the sharpest minds emerge victorious, forging legends in the world of code.",
     desc: "Roudn",
-    amount: [50_00, 80_00], // 100.00
+    amount: [50_00, 80_00, 120_00], // 100.00
     image: autocoders,
     card_image: AUTO_F,
     icon: "clarity:bar-code-line",
     date: "12ᵗʰ Nov 2022",
-    players: [1, 2],
+    players: [1, 2, 3],
     type:["", ""],
     payment_links: [
-      'https://rzp.io/l/0l3VB4xMnc',
-      'https://rzp.io/l/8bn4CfyBU',
-      // 'https://rzp.io/l/8K50JlbU',
+      'https://rzp.io/l/synergy23-autocoders-solo',
+      'https://rzp.io/l/synergy23-autocoders-duo',
+      'https://rzp.io/l/synergy23-autocoders-trio',
     ]
   },
   {
@@ -77,17 +77,17 @@ export const events: Event[] = [
     long_desc:
       "Embark on a coding journey from grasshopper to apprentice and, ultimately, master! Our web development event offers challenges for all skill levels. Test your algorithmic skills, learn, and rise through the ranks. Seize this opportunity to prove your coding prowess and become a true web development master!",
     desc: "When you see a good move, look for better one",
-    amount: [60_00, 100_00], // 100.00
+    amount: [40_00, 60_00], // 100.00
     image: binarybishops,
     card_image: WEB_F,
     icon: "clarity:bar-code-line",
     date: "13ᵗʰ Nov 2022",
-    players: [1, 2, 4],
+    players: [1, 2],
     type:["", ""],
     payment_links: [
-      'https://rzp.io/l/LPNQeJ1zt',
-      'https://rzp.io/l/IPGVIAOl2U',
-      'https://rzp.io/l/IPGVIAOl2U',
+      'https://rzp.io/l/synergy23-web-solo',
+      'https://rzp.io/l/synergy23-web-duo',
+      // 'https://rzp.io/l/IPGVIAOl2U',
     ]
   },
   {
@@ -105,7 +105,7 @@ export const events: Event[] = [
     players: [4],
     type:[""],
     payment_links: [
-      'https://rzp.io/l/C7ZnM1j',
+      'https://rzp.io/l/synergy23-bountyhunt',
       // "about:blank"
     ]
   },
@@ -116,17 +116,17 @@ export const events: Event[] = [
     long_desc:
       "In Valorant, we're not just good; we're legendary! Our headshots are like poetry, and our strategies, works of art. In BGMI, our squad co-ordination wins us chicken dinners for fortnights in a row. We're also the Kings and Queens of Chess, and you're in for a royal beatdown! So, if you think you can step up to the big leagues, prepare to be schooled.",
     desc: "One life, one chance",
-    amount: [200_00, 150_00, 30_00], // 100.00
+    amount: [200_00, 160_00, 40_00], // 100.00
     image: aceclutchers,
     card_image: ACE_F,
     icon: "clarity:bar-code-line",
     date: "12ᵗʰ & 13ᵗʰ Nov 2022",
     players: [5, 5, 1],
-    type:["VALORANT", 'BGMI(SOLO)', 'BGMI'],
+    type:["VALORANT", 'BGMI', 'CHESS'],
     payment_links: [
-      'https://rzp.io/l/u5LTH9kE5',
-      'https://rzp.io/l/aDRCQH9',
-      'https://rzp.io/l/BxK7OAT'
+      'https://rzp.io/l/synergy23-ace-valo',
+      'https://rzp.io/l/synergy23-ace-bgmi',
+      'https://rzp.io/l/synergy23-ace-chess'
     ]
   },
   {
@@ -144,7 +144,7 @@ export const events: Event[] = [
     players: [1],
     type:[""],
     payment_links: [
-      'https://rzp.io/l/3ELT4ABmn',
+      'https://rzp.io/l/synergy23-harddrive',
     ]
   },
     {
@@ -154,7 +154,7 @@ export const events: Event[] = [
     long_desc:
       "For the one's having a knack of exploring the visionary domain of Aeromodelling  we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.",
     desc: "Don't miss this opportunity, it's going to be fun!!",
-    amount: [0], // 100.00
+    amount: [50_00], // 100.00
     image: seminar_2,
     card_image: SMASH_F,
     icon: "clarity:bar-code-line",
@@ -162,7 +162,7 @@ export const events: Event[] = [
     players: [1],
     type:[""],
     payment_links: [
-      'https://chat.whatsapp.com/CdapqnwhvY3E8MJhw7jmHw',
+      'https://rzp.io/l/synergy23-smash',
     ]
   },
   // {
@@ -171,7 +171,7 @@ export const events: Event[] = [
   //   name: "Seminar on Data Science & Machine Learning",
   //   long_desc:
   //     "For the one's having a knack of exploring the visionary domain of 𝗗𝗮𝘁𝗮 𝘀𝗰𝗶𝗲𝗻𝗰𝗲 𝗮𝗻𝗱 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 .we've got a great talk awaiting for y'all! ✈ With us we'll be having Mr. Hemant Surjuse, BSC in computer science and MCA ,who has served for IBM and currently a part of Bombay stock Exchange. Sir will be hosting a webinar on data science and machine learning. ",
-  //   desc: "Don't miss this opportunity, it's going to be fun!!",
+  //   desc: "Don't miss this opportunity, it's going to be fun!!",
   //   amount: [0], // 100.00
   //   image: seminar_1,
   //   card_image: webcraft,

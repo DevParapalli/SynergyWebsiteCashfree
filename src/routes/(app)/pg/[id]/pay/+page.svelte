@@ -3,39 +3,39 @@
   import { events } from "$lib/data/events";
   import type { db_registration } from "$lib/types";
   import { onMount } from "svelte";
-  import { cashfreeSandbox } from "cashfree-dropjs";
-  import { cashfreeProd } from "cashfree-dropjs";
+  // import { cashfreeSandbox } from "cashfree-dropjs";
+  // import { cashfreeProd } from "cashfree-dropjs";
   import { goto } from "$app/navigation";
   export let data: { db: db_registration; pg: any };
   let _data = events.find((event) => event.id === data.db.event);
-  onMount(() => {
-    let cashfree;
-    // TODO: change to prod
-    cashfree = new cashfreeSandbox.Cashfree();
+  // onMount(() => {
+  //   let cashfree;
+  //   // TODO: change to prod
+  //   cashfree = new cashfreeSandbox.Cashfree();
 
-    cashfree.initialiseDropin(document.getElementById("payment-form"), {
-      orderToken: data.pg.order_token,
-      onSuccess: (e) => {
-        /* {"order":{"status":"PAID","orderId":"1_1666199073","message":"Order is Paid","errorText":null,"activePaymentMethod":"upi-collect"},"transaction":{"txStatus":"SUCCESS","txMsg":"Simulated response message","transactionId":885691095,"transactionAmount":104}} */
-        //console.log(e);
-        goto(`/pg/process_return?cf_id=${e.order.orderId}&cf_token=${data.pg.order_token}`);
-      },
-      onFailure: (e) => {
-        /* 
-        {"order":{"status":"ERROR","errorText":"Please provide a valid UPI ID","activePaymentMethod":"upi-collect","message":"order has failed","orderId":"1_1666199073"},"transaction":null}
-        */
-        //console.log(e);
-        alert(e.order.errorText);
-      },
-      components: [
-        "order-details",
-        "card",
-        "netbanking",
-        "app",
-        "upi",
-      ],
-    });
-  });
+  //   cashfree.initialiseDropin(document.getElementById("payment-form"), {
+  //     orderToken: data.pg.order_token,
+  //     onSuccess: (e) => {
+  //       /* {"order":{"status":"PAID","orderId":"1_1666199073","message":"Order is Paid","errorText":null,"activePaymentMethod":"upi-collect"},"transaction":{"txStatus":"SUCCESS","txMsg":"Simulated response message","transactionId":885691095,"transactionAmount":104}} */
+  //       //console.log(e);
+  //       goto(`/pg/process_return?cf_id=${e.order.orderId}&cf_token=${data.pg.order_token}`);
+  //     },
+  //     onFailure: (e) => {
+  //       /* 
+  //       {"order":{"status":"ERROR","errorText":"Please provide a valid UPI ID","activePaymentMethod":"upi-collect","message":"order has failed","orderId":"1_1666199073"},"transaction":null}
+  //       */
+  //       //console.log(e);
+  //       alert(e.order.errorText);
+  //     },
+  //     components: [
+  //       "order-details",
+  //       "card",
+  //       "netbanking",
+  //       "app",
+  //       "upi",
+  //     ],
+  //   });
+  // });
 </script>
 
 <div
