@@ -98,8 +98,8 @@ export const team1 = [
         role: "Technical Head",
         decor: "border-indigo-500",
         socials: [
-            { link: "", icon: "bi:instagram" },
-            { link: "", icon: "bi:linkedin" },
+            { link: "https://instagram.com/ketanbaitule?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D", icon: "bi:instagram" },
+            { link: "https://www.linkedin.com/in/ketan-baitule-a05919264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", icon: "bi:linkedin" },
         ],
     },
     {
@@ -139,8 +139,8 @@ export const team1 = [
         role: "Technical Co-Head",
         decor: "border-emerald-500",
         socials: [
-            { link: "", icon: "bi:instagram" },
-            { link: "", icon: "bi:linkedin" },
+            { link: "https://www.instagram.com/ishad_pande/", icon: "bi:instagram" },
+            { link: "https://www.linkedin.com/in/ishad-pande-049305259/", icon: "bi:linkedin" },
         ],
     },
     {
@@ -150,8 +150,8 @@ export const team1 = [
         role: "Event Coordinator",
         decor: "border-fuchsia-500",
         socials: [
-            { link: "", icon: "bi:instagram" },
-            { link: "", icon: "bi:linkedin" },
+            { link: "https://instagram.com/_yashasvi.2312_?igshid=YTQwZjQ0NmI0OA==", icon: "bi:instagram" },
+            { link: "www.linkedin.com/in/yashasvi-sherke-999530226", icon: "bi:linkedin" },
         ],
     },
     {
@@ -171,8 +171,8 @@ export const team1 = [
         role: "Executive Committee Member",
         decor: "border-fuchsia-500",
         socials: [
-            { link: "", icon: "bi:instagram" },
-            { link: "", icon: "bi:linkedin" },
+            { link: " https://www.instagram.com/not.parassssss._/", icon: "bi:instagram" },
+            { link: "https://www.linkedin.com/in/paras-shrote-91ba5b294/", icon: "bi:linkedin" },
         ],
     },
     {
@@ -183,7 +183,7 @@ export const team1 = [
         decor: "border-fuchsia-500",
         socials: [
             { link: "https://instagram.com/sanika_2794?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==", icon: "bi:instagram" },
-            { link: "", icon: "bi:linkedin" },
+            { link: "https://www.linkedin.com/in/sanika-jaolekar-944425296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", icon: "bi:linkedin" },
         ],
     },
     {
@@ -193,8 +193,8 @@ export const team1 = [
         role: "Executive Committee Member",
         decor: "border-fuchsia-500",
         socials: [
-            { link: "" , icon: "bi:instagram"},
-            { link: "", icon: "bi:linkedin" },
+            { link: "https://instagram.com/sahhiiillll?igshid=MzRlODBiNWFlZA==" , icon: "bi:instagram"},
+            { link: "https://www.linkedin.com/in/sahil-shrikhande-052ab4268", icon: "bi:linkedin" },
         ],
     },
     {
@@ -215,8 +215,8 @@ export const team1 = [
         role: "Executive Committee Member",
         decor: "border-fuchsia-500",
         socials: [
-            { link: "https://www.linkedin.com/in/rutuja-dekhane-719108256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", icon: "bi:instagram" },
-            { link: "https://instagram.com/rutuja_dekhane?igshid=OGQ5ZDc2ODk2ZA==", icon: "bi:linkedin" },  
+            { link: "https://instagram.com/rutuja_dekhane?igshid=OGQ5ZDc2ODk2ZA== ", icon: "bi:instagram" },
+            { link: "https://www.linkedin.com/in/rutuja-dekhane-719108256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", icon: "bi:linkedin" },  
         ],
     },
     {
@@ -227,7 +227,7 @@ export const team1 = [
         decor: "border-fuchsia-500",
         socials: [
             { link: "", icon: "bi:instagram" },
-            { link: "", icon: "bi:linkedin" },  
+            { link: "https://www.linkedin.com/in/sachin-patel-92938a296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", icon: "bi:linkedin" },  
         ],
     },
 ];
